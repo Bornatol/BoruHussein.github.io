@@ -10,9 +10,10 @@ body{
     width:80%;
     margin:auto;
     overflow:hidden;
+
 }
 header{
-    background:#35424a;
+    background:blue;
     color:#ffffff;
     width: 100%;
     padding-top:30px;
@@ -52,7 +53,7 @@ header li{
     display: inline;
     padding: 0 20px 0 20px;
 }
-headr #branding{
+header #branding{
     float:left;
 }
 header #branding h1{
@@ -73,11 +74,12 @@ header a:hover{
 }
 #showcase{
      min-height:400px;
-     padding: 20px;
-     background: pink;
+     padding: 0;
+     background: salmon;
      background-size: 1380px 400px;
      text-align: center;
      color: black;
+
 }
 #showcase h1{
     margin-top: 100px;
@@ -86,6 +88,7 @@ header a:hover{
 }
 #showcase p{
     font-size: 20px;
+    text-indent: 25px;
 }
 #newsletter{
     padding: 15px;
@@ -105,8 +108,25 @@ header a:hover{
         width: 250px;
 
     }
+     #a {
+            width: 485px;
+        }
+        .b {
+            width: 240px;
+            background-color: pink;
+            height: 450px;
+            float: right;
+        }
+        .c {
+            width: 240px;
+            height: 450px;
+            float: left;
+        }
     #boxes{
-        margin-top: 20px;
+        margin-top: 40px;
+        background:violet;
+        border: 1px solid green;
+
     }
     #boxes .box{
         float: left;
@@ -137,13 +157,13 @@ header a:hover{
          padding: 20px;
          border: grey solid 1px;
          margin-bottom:5px;
-         background: light grey;
+         background: very light grey;
 
      }
 
     footer{
         padding: 20px;
-        margin-top: 20px;
+        margin-top: 450px;
         color: #ffffff;
         background-color: #e8491d;
         text-align: center;
