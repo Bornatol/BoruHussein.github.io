@@ -123,7 +123,7 @@ header a:hover{
             float: left;
         }
     #boxes{
-        margin-top: 40px;
+        margin-top: 20px;
         background:violet;
         border: 1px solid green;
 
@@ -163,7 +163,7 @@ header a:hover{
 
     footer{
         padding: 20px;
-        margin-top: 450px;
+        margin-top: 50px;
         color: #ffffff;
         background-color: #e8491d;
         text-align: center;
